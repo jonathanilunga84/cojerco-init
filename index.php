@@ -16,8 +16,9 @@
 
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<!-- link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" -->
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-	
+	<!--link rel="stylesheet" href="assets/css/font-awesome.min.css"-->
+
+	<link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
 
 	<!-- Custom styles for our template -->
 	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >

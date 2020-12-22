@@ -88,19 +88,19 @@
 										<th>Date activite</th>								
 									</tr>	
 								</tfoot>
-								<?php while($data = $req->fetch()) 
+								<?php //while($data = $req->fetch()) 
 								{
 								?>
 									
 										<tr>
-											<td><h4><a href="/cojerco/upload_index.php?action=activite&Id=<?php echo $data['id']; ?>"> <?php echo nl2br(htmlspecialchars($data['titre'])); ?></a></h4></td>
-											<td><p><?php echo nl2br(htmlspecialchars($data['resume_activite']));?></p></td>
-											<td><p><?php echo nl2br(htmlspecialchars($data['dateposte']));?></p></td>
-											<td><p><?php echo nl2br(htmlspecialchars($data['id']));?></p></td>
+											<td><h4><a href="/cojerco/upload_index.php?action=activite&Id=<?php //echo $data['id']; ?>"> <?php //echo nl2br(htmlspecialchars($data['titre'])); ?></a></h4></td>
+											<td><p><?php //echo nl2br(htmlspecialchars($data['resume_activite']));?></p></td>
+											<td><p><?php //echo nl2br(htmlspecialchars($data['dateposte']));?></p></td>
+											<td><p><?php //echo nl2br(htmlspecialchars($data['id']));?></p></td>
 										</tr>
 									
 								<?php								
-								}$req->closeCursor();						
+								}//$req->closeCursor();						
 								?>	
 							</table-->							
 						</div>						
